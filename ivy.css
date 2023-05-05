@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+p
+{
+    font-weight: 300;
+    color: #d3da0cdd;
+}
+.banner
+{
+    width: 100%;
+    padding-top: 10rem;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    background-image: url(background.jpg) ;
+}
+.banner .content
+{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.banner .content p
+{
+    color: #000b0b;
+    font-size: 47px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.banner .content .malaki{
+    font-size: 85px;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+.banner .content a{
+    text-decoration: none;
+    color: rgb(31, 8, 19);
+}
+
+.banner .content .details{
+    text-align: left;
+    font-style: italic;
+    color: rgb(18, 1, 21);
+    padding-top: 1.5rem;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    padding-bottom: 1.5rem;
+}
+.content .button
+{
+    background-color: rgb(244, 147, 242);
+    border: none;
+    color: white;
+    padding: 12px 50px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 13px;
+
+    font-weight: 500;
+}
+.content .button:hover
+{
+    background-color: white;
+    color: rgb(164, 42, 220);
+    font-weight: 500;
+
+}
+section{
+    padding: 100px;
+}
+
+header
+{
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 30px 90px;
+    width: 100%;
+    z-index: 9000;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    transition: 0.5s;
+}
+header.sticky
+{
+    padding: 10px 90px;
+    background: #fff;
+    box-shadow: 0 4px 19px rgba(0,0,0,0.04);
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header.sticky .logo
+{
+    color: #111;
+}
+
+header .nav
+{
+    display: flex;
+    position: relative;
+}
+header .nav li
+{
+    margin-left: 30px;
+    list-style: none;
+    font-weight: 400;
+}
+header .nav li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+header.sticky .nav li a
+{
+    color: #111;
+    font-weight: 400;
+}
+header .nav li a:hover
+{
+    color: rgb(239, 95, 133);
+    transition: 0.25s;
+}
+
+section .about{
+    max-width: 1200px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.row
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.row .co150
+{
+    width: 48%;
+    position: relative;
+    align-items: center;
+}
+
+.row .cont{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.titleText
+{
+    font-weight: 800;
+    font-size: 55px;
+    color: #111;
+    text-transform: uppercase;
+}
+.titleText span
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(190, 235, 9);
+}
+.row .co150 .imgBx
+{
+    /*min-height: 300px;*/
+    height: 400px;
+    width: 620px;
+    position: relative;
+}
+.row .co150 .imgBx img
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.title
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.skills .content
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.skills .content .box
+{
+    margin: 20px;
+    width: 350px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.07);
+}
+.skills .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 280px;
+}
+.skills .content .box .imgBx img
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.skills{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;                                       
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: palevioletred;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.skills-col{
+    flex-basis: 31%;
+    background:#c21772;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.skills-col:hover{
+    box-shadow: 0 0 20px 0px rgba(222, 212, 12, 0.7);
+}
+.activities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;                                       
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: rgb(12, 1, 30);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.activities-col{
+    flex-basis: 35%;
+    background:#cd599d;
+    border-radius: 5px;
+    margin-bottom: 15%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.activities-col:hover{
+    box-shadow: 0 0 20px 0px rgba(10, 59, 236, 0.7);
+}
+
+@media (max-width: 991px)
+{
+    header,
+    header.sticky
+    {
+        padding: 10px 20px;
+    }
+    header .nav
+    {
+        display: none;
+    }
+    header .nav.active
+    {
+        display: flex;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 55px);
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #fff;
+    }
+    header .nav li 
+    {
+        margin-left: 0px;
+    }
+    header .nav li a 
+    {
+        color: #111;
+        font-size: 1.5em;
+    }
+    .menuToggle
+    {
+        position: relative;
+        height: 30px;
+        width: 30px;
+        background: url(white-menu-icon-png-8.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    .menuToggle.active
+    {
+        background: url(close2.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    header.sticky .menuToggle
+    {
+        filter: invert(1);
+    }
+    section 
+    {
+        padding: 20px;
+    }
+    .banner .content h1 
+    {
+        color: #fff;
+        font-size: 2em;
+    }
+    .row 
+    {
+        flex-direction: column;
+    }
+    .row .co150 
+    {
+        width: 100%;
+        position: relative;
+    }
+    .row .co150 .imgBx 
+    {
+        height: 300px;
+        margin-top: 30px;
+    }
+    .titleText 
+    {
+        text-align: center;
+        flex-direction: column;
+    }
+    .titleText p
+    {
+        font-weight: 300;
+        font-size: 1.8em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+    }
+    .contactform 
+    {
+        padding: 35px 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 480px)
+{
+    .banner .content h1 
+    {
+        color: #fff;
+        font-size: 1.5em;
+    }
+}
+
+.skills
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(62, 2, 62);
+}
+
+.about
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    background-color: rgb(240, 50, 152);
+}
+
+.about
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    background-color: rgb(161, 81, 237);
+}
+
+.activities
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 10rem;
+    min-height: 100vh;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    background-color: rgb(235, 56, 235);
+}
+
+span{
+    color: rgb(150, 11, 220);
+}
